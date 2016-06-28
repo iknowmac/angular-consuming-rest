@@ -1,0 +1,8 @@
+<div class="list-group">
+  <a href="#" class="list-group-item disabled">
+    <strong class="text-primary">{{ postsLength }}</strong>
+  </a>
+  <a href="#/posts/{{ post.id }}" class="list-group-item" ng-repeat="post in posts">
+    <span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{ post.title }}
+  </a>
+</div>
